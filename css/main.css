@@ -2,6 +2,7 @@
     html {
     overflow-x: hidden;
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
     background: #fff;
     font-size: 14px;
@@ -21,6 +22,13 @@ h1, h2, h3, h4 {
     font-size: 38px;
     color: #585b60;
     font-weight: 700;
+    font-family: montserrat, sans-serif;
+}
+h3{
+    font-size: 26px;
+    color: #0c4651;
+    postition: relative;
+    font-weight: 400;
     font-family: montserrat, sans-serif;
 }
 h4{
@@ -45,6 +53,7 @@ p {
     font-weight: 400;
     font-family: montserrat, sans-serif;
     margin: 0;
+    color: #555555;
     font-size: 14px;
 }
 ul, ol {
